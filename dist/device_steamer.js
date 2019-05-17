@@ -296,7 +296,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('text', {
     staticClass: ["navigatorTitle"]
-  }, [_vm._v("details")])]), _vm._m(0), _vm._m(1)])
+  }, [_vm._v("返回")])]), _vm._m(0), _c('div', {
+    staticClass: ["timePickBox"],
+    on: {
+      "click": _vm.toBack
+    }
+  }, [_vm._m(1)])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: ["navBox"]
@@ -308,12 +313,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   })])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: ["timePickBox"]
-  }, [_c('div', {
     staticClass: ["startBtn"]
   }, [_c('text', {
     staticClass: ["startCook"]
-  }, [_vm._v("dddddddddd")])])])
+  }, [_vm._v("返回")])])
 }]}
 module.exports.render._withStripped = true
 

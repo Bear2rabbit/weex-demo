@@ -2,7 +2,7 @@
   <div>
     <div class="navigatorBox" @click='toBack'>
      
-      <text class="navigatorTitle" >details</text>
+      <text class="navigatorTitle" >返回</text>
     </div>
     <div class="navBox" >
       <image
@@ -10,9 +10,9 @@
         class="bgimg"
       ></image>
     </div>
-    <div class="timePickBox">
+    <div class="timePickBox"  @click='toBack'>
       <div class="startBtn">
-        <text class="startCook">dddddddddd</text>
+        <text class="startCook">返回</text>
       </div>
     </div>
   </div>
